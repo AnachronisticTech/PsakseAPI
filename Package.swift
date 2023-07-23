@@ -17,9 +17,6 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AnachronisticTech/WebServiceBuilder", from: "1.0.0"),
         .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
-        .package(url: "https://github.com/johnsundell/Ink.git", from: "0.5.0"),
-        .package(url: "https://github.com/JohnSundell/Files", from: "4.0.0"),
-        .package(name: "HTMLEntities", url: "https://github.com/IBM-Swift/swift-html-entities.git", from: "3.0.14")
     ],
     targets: [
         .target(
@@ -27,9 +24,6 @@ let package = Package(
             dependencies: [
                 .product(name: "WebServiceBuilder", package: "WebServiceBuilder"),
                 .product(name: "Fluent", package: "fluent"),
-                .product(name: "Files", package: "Files"),
-                .product(name: "Ink", package: "Ink"),
-                .product(name: "HTMLEntities", package: "HTMLEntities")
             ],
             resources: [
                 .copy("Resources"),

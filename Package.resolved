@@ -29,15 +29,6 @@
         }
       },
       {
-        "package": "Files",
-        "repositoryURL": "https://github.com/JohnSundell/Files",
-        "state": {
-          "branch": null,
-          "revision": "d273b5b7025d386feef79ef6bad7de762e106eaf",
-          "version": "4.2.0"
-        }
-      },
-      {
         "package": "fluent",
         "repositoryURL": "https://github.com/vapor/fluent.git",
         "state": {
@@ -53,15 +44,6 @@
           "branch": null,
           "revision": "763627fbb81f3fdcf5d38db15afae41d7926eee3",
           "version": "1.43.0"
-        }
-      },
-      {
-        "package": "Ink",
-        "repositoryURL": "https://github.com/johnsundell/Ink.git",
-        "state": {
-          "branch": null,
-          "revision": "bcc9f219900a62c4210e6db726035d7f03ae757b",
-          "version": "0.6.0"
         }
       },
       {
@@ -134,15 +116,6 @@
           "branch": null,
           "revision": "33a20e650c33f6d72d822d558333f2085effa3dc",
           "version": "2.5.0"
-        }
-      },
-      {
-        "package": "HTMLEntities",
-        "repositoryURL": "https://github.com/IBM-Swift/swift-html-entities.git",
-        "state": {
-          "branch": null,
-          "revision": "2b14531d0c36dbb7c1c45a4d38db9c2e7898a307",
-          "version": "3.0.200"
         }
       },
       {

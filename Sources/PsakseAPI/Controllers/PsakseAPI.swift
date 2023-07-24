@@ -28,6 +28,6 @@ struct PsakseAPI: RouteCollection {
     }
 
     func createPuzzle(req: Request) throws -> EventLoopFuture<HTTPStatus> {
-        fatalError("not yet implemented")
+        throw Abort(.internalServerError)
     }
 }
